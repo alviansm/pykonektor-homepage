@@ -1,0 +1,60 @@
+body {
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: 0.9rem;
+}
+
+p {
+    color: black;
+}
+
+.container-small {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.font-oldstyle-header {
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.main-homepage {
+    max-width: 480px;
+    width: 100%;
+}
+
+.navigation-homepage {
+    max-width: 220px;
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.typograph-small-italic {
+    font-size: 9px;
+    font-style: italic;
+}
+
+.typograph-download {
+    font-size: 18px;
+}
+
+.typograph-copyright {
+    color: darkgrey;
+    font-size: small;
+}
+
+.typograph-form {
+    font-size: 0.8rem;
+}
+
+.typograph-page-header {
+    font-size: 1.15rem;
+}
