@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <title>PYKonektor - Download</title>
+    <title>PYKonektor - Fitur</title>
 </head>
 <body>
     <!--//////////////////////////////
@@ -26,10 +26,10 @@
         </form>
       </div>
       <nav class="nav my-0">
-        <a class="nav-link active" href="/">Beranda</a>
+        <a class="nav-link" href="/">Beranda</a>
         <a class="nav-link" href="/feature.html">Fitur</a>
-        <a class="nav-link" href="/download.html"><u>Download</u></a>
-        <a class="nav-link" href="/tutorial.html">Tutorial</a>
+        <a class="nav-link" href="/download.html">Download</a>
+        <a class="nav-link active" href="#"><u>Tutorial</u></a>
         <a class="nav-link" href="https://github.com/alviansm/database_sbuac_gui" target="_blank"><i class="fa-brands fa-github-alt"></i>Source Code</a>
         <a class="nav-link" href="/contact.html">Kontak</a>
       </nav>
@@ -43,50 +43,26 @@
         ///////////////////////////////-->
       <div class="container-small d-flex flex-row justify-content-between">
         <div class="d-flex flex-column">
-            <p class="typograph-page-header mt-1"><b>Persyaratan Sistem</b></p>
+            <p class="typograph-page-header mt-1"><b>Cara Pengguanaan</b></p>
+            
+            <div>
+                <p class="my-0"><b>Melihat dan mencari pada jendela utama</b></p>
+                <p class="my-0">User dapat mencari proyek yang ada dengan cara seperti yang ditunjukkan pada gambar di bawah.</p>
+                <p class="my-0">Untuk melihat lebih lanjut mengenai data BOM dari proyek yang ada, pilih proyek pada kolom kemudian klik tombol <b>Lihat BOM</b>. User juga dapat melihat Data Sheet yang terlampirkan pada proyek yang ada, jika proyek tersebut memiliki Data Sheet. Untuk menambahkan atau mengganti, user dapat menggunakan fitur pengeditan dengan cara mengeklik tombol <b>Edit</b> kemudian pilih menu <b>Proyek Baru</b> pada <b>Menu Bar</b>.</p>
+                <img src="/assets_tutorial/edited1.png" alt="feature preview">
+            </div>
+
+            <div class="my-4">
+                <p class="my-0"><b>Mengimpor Data BOM dari Excel ke dalam Database Proyek</b></p>
+                <p class="my-0">User dapat mengimpor data BOM ke dalam proyek yang ada dalam database. Untuk mengimpor, pastikan User telah memiliki atau telah menambahkan proyek. <b>Untuk menambahkan proyek,</b> User dapat mengeklik menu <b>Edit</b> kemudian pilih <b>Proyek Baru</b> pada jendela utama.</p>
+                <p class="my-0">Jika sudah memiliki proyek, untuk mengimpor User dapat mengikuti instruksi di bawah. Pastikan <b>Format Excel sudah benar</b> dan <b>memilih proyek yang akan diberikan BOM dari excel sebelum klik Mulai.</b></p>
+                <img src="/assets_tutorial/edited2.png" alt="feature preview">
+            </div>
 
             <div>
-                <p class="my-0"><b>Sistem Operasi</b></p>
-                <uL>
-                    <li>Telah teruji dapat dijalankan pada <u>Windows 10.</u></li>
-                </uL>               
-            </div>
-            <div class="mt-2">
-                <p class="my-0">Dikembangkan menggunakan bahasa pemrograman <a target="_blank" href="https://www.python.org/">Python</a>, sehingga program seharusnya dapat dijalankan ke dalam sistem operasi yang mendukung interpreter Python seperti Linux dan Mac.</p>               
-            </div>
-            <div class="mt-2">
-                <p class="my-0">Terdapat fitur backup data otomatis secara berkala yang disimpan ke dalam memori PC pengguna.</p>               
-            </div>
-
-            <p class="typograph-page-header mt-4 mb-2"><b>Download</b></p>
-
-            <div>
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Versi</th>
-                        <th scope="col">Tanggal Rilis</th>
-                        <th scope="col">Bahasa</th>
-                        <th scope="col">Download</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">0.1.0 (Beta)</th>
-                        <td>13 Oktober 2022</td>
-                        <td>Bahasa Indonesia</td>
-                        <td><a href="#" target="_blank">
-                            <img src="/assets/images/Sourceforge_logo.svg.png" alt="sourceforge download button" width="156">
-                        </a></td>
-                      </tr>
-                    </tbody>
-                  </table>                  
-            </div>
-
-            <p class="typograph-page-header mt-4 mb-2"><b>Tutorial</b></p>
-            <div>
-                <img src="/assets/images/pyconnector_features.png">
-                <p>Cara penggunaan dan bantuan fitur dapat dilihat di laman <a href="/tutorial.html">Tutorial</a>.</p>
+                <p class="my-0"><b>Mengekspor Data BOM menjadi Excel dari Proyek yang ada</b></p>
+                <p class="my-0">User dapat mengekspor data yang ada dalam program database menjadi file Excel dengan mengikuti instruksi di bawah.</p>
+                <img src="/assets_tutorial/edited3.png" alt="feature preview">
             </div>
 
         </div>
